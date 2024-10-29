@@ -1,134 +1,212 @@
-# My first fullstack project | Meu primeiro projeto fullstack
+# Product Store
 
 [English](#english) | [Português](#português)
 
-## English
+# English
 
-### Overview
-This is my first fullstack project, a significant milestone in my development journey. Although it's a simple application, it represents an important learning experience where I had the opportunity to work with various modern web technologies.
+A fullstack product management system developed as my first project integrating frontend and backend. The application allows managing a product store with complete CRUD (Create, Read, Update, Delete) operations.
+<br>
 
-### Technologies used
-- **Frontend**
-  - React.js
-  - Chakra UI (for styling and dark/light mode)
-- **Backend**
-  - Node.js
-  - Express.js
-  - MongoDB
+## Screenshots
 
-### Features
-- Responsive design
-- Dark/Light mode toggle
-- CRUD operations
-- Implementing API
-- Database integration with MongoDB
+<div align="center">
+  <div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
+    <img src="screencapture-00.jpg" alt="Screenshot 1" width="32%">
+    <img src="screencapture-01.jpg" alt="Screenshot 2" width="32%">
+    <img src="screencapture-02.jpg" alt="Screenshot 3" width="32%">
+  </div>
+  <div style="display: flex; justify-content: space-between;">
+    <img src="screencapture-03.jpg" alt="Screenshot 4" width="32%">
+    <img src="screencapture-04.jpg" alt="Screenshot 5" width="32%">
+    <img src="screencapture-05.jpg" alt="Screenshot 6" width="32%">
+  </div>
+</div>
 
-### Learning outcomes
-Through this project, I gained valuable experience in:
-- Building a complete fullstack application 
-- Working with MongoDB database
-- Using modern UI libraries (Chakra UI)
-- Managing state in React applications
-- Handling frontend-backend integration
-- Implementing responsive design principles
+## Features
 
-### Installation and Setup
+- Product registration with name, price and image
+- Edit existing products
+- Remove products
+- Responsive interface
+- Dark mode
+- Product image support
+
+## Technologies used
+
+### Frontend
+
+- React.js - JavaScript library for building user interfaces
+- Chakra UI - Component framework for React
+
+### Backend
+
+- Node.js - JavaScript runtime
+- Express.js - Web framework for Node.js
+- MongoDB - NoSQL database
+
+## Prerequisites
+
+Before starting, make sure you have the following requirements:
+
+- Node.js installed
+- MongoDB installed and running
+- NPM or Yarn installed
+
+## Installation
+
 1. Clone the repository
+
 ```bash
-git clone [https://github.com/mfthaina/product-store.git]
+git clone https://github.com/your-user/product-store.git
 ```
 
-2. Install dependencies for both frontend and backend
+2. Install frontend dependencies
+
 ```bash
-# Frontend
 cd frontend
 npm install
+```
 
-# Backend
+3. Install backend dependencies
+
+```bash
 cd backend
 npm install
 ```
 
-3. Create a .env file in the backend directory and add your MongoDB connection string
-```
-MONGODB_URI=your_mongodb_connection_string
-```
+4. Configure environment variables
 
-4. Run the application
 ```bash
-# Backend
-npm run dev
-
-# Frontend (in a new terminal)
-cd frontend
-npm run dev
+# Create a .env file in the backend directory with:
+MONGODB_URI=your_mongodb_uri
+PORT=5000
 ```
+
+5. Run this app locally
+
+```bash
+npm run build
+```
+
+6. Start the app
+
+```bash
+npm run start
+```
+
+## Project status
+
+The project is in its first functional version. Planned improvements:
+
+- Add search system
+- Implement category filters
+- Add pagination
+- Improve visual feedback of actions
+- Implement authentication
 
 ---
 
-## Português
+<br>
 
-### Visão geral
-Este é meu primeiro projeto fullstack, um marco significativo em minha jornada de desenvolvimento. Embora seja uma aplicação simples, representa uma importante experiência de aprendizado onde tive a oportunidade de trabalhar com várias tecnologias web modernas.
+# Português
 
-### Tecnologias utilizadas
-- **Frontend**
-  - React.js
-  - Chakra UI (para estilização e modo escuro/claro)
-- **Backend**
-  - Node.js
-  - Express.js
-  - MongoDB
+Um sistema fullstack de gerenciamento de produtos desenvolvido como meu primeiro projeto integrando frontend e backend. A aplicação permite gerenciar uma loja de produtos com operações CRUD (Create, Read, Update, Delete) completas.
 
-### Funcionalidades
-- Design responsivo
-- Alternar entre modo escuro/claro
-- Operações CRUD
-- Integração com API 
-- Integração com banco de dados MongoDB
+<br>
 
-### Aprendizados
-Através deste projeto, adquiri experiência valiosa em:
-- Construção de uma aplicação fullstack completa
-- Implementação de API
-- Trabalho com banco de dados MongoDB
-- Uso de bibliotecas modernas de UI (Chakra UI)
-- Gerenciamento de estado em aplicações React
-- Integração frontend-backend
-- Implementação de princípios de design responsivo
+## Capturas de tela
 
-### Instalação e configuração
+<div align="center">
+  <div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
+    <img src="screencapture-00.jpg" alt="Screenshot 1" width="32%">
+    <img src="screencapture-01.jpg" alt="Screenshot 2" width="32%">
+    <img src="screencapture-02.jpg" alt="Screenshot 3" width="32%">
+  </div>
+  <div style="display: flex; justify-content: space-between;">
+    <img src="screencapture-03.jpg" alt="Screenshot 4" width="32%">
+    <img src="screencapture-04.jpg" alt="Screenshot 5" width="32%">
+    <img src="screencapture-05.jpg" alt="Screenshot 6" width="32%">
+  </div>
+</div>
+
+## Funcionalidades
+
+- Cadastro de produtos com nome, preço e imagem
+- Edição de produtos existentes
+- Remoção de produtos
+- Interface responsiva
+- Tema dark mode
+- Suporte a imagens de produtos
+
+## Tecnologias utilizadas
+
+### Frontend
+
+- React.js - Biblioteca JavaScript para construção de interfaces
+- Chakra UI - Framework de componentes para React
+
+### Backend
+
+- Node.js - Runtime JavaScript
+- Express.js - Framework web para Node.js
+- MongoDB - Banco de dados NoSQL
+
+## Pré-requisitos
+
+Antes de começar, verifique se você tem os seguintes requisitos:
+
+- Node.js instalado
+- MongoDB instalado e rodando
+- NPM ou Yarn instalado
+
+## Instalação
+
 1. Clone o repositório
+
 ```bash
-git clone [https://github.com/mfthaina/product-store.git]
+git clone https://github.com/seu-usuario/product-store.git
 ```
 
-2. Instale as dependências do frontend e backend
+2. Instale as dependências do frontend
+
 ```bash
-# Frontend
 cd frontend
 npm install
+```
 
-# Backend
+3. Instale as dependências do backend
+
+```bash
 cd backend
 npm install
 ```
 
-3. Crie um arquivo .env no diretório backend e adicione sua string de conexão MongoDB
-```
-MONGODB_URI=sua_string_de_conexão_mongodb
-```
+4. Configure as variáveis de ambiente
 
-4. Execute a aplicação
 ```bash
-# Backend
-npm run dev
-
-# Frontend (em um novo terminal)
-cd frontend
-npm run dev
+# Crie um arquivo .env no diretório backend com:
+MONGODB_URI=sua_uri_do_mongodb
+PORT=5000
 ```
 
----
+5. Execute este aplicativo localmente
 
-Made with 🖤 by Thainá Souza
+```bash
+npm run build
+```
+
+6. Inicie o aplicativo
+
+```bash
+npm run start
+```
+
+## Status do projeto
+
+O projeto está em sua primeira versão funcional. Melhorias planejadas:
+
+- Adicionar sistema de busca
+- Implementar filtros por categoria
+- Adicionar paginação
+- Melhorar feedback visual de ações
+- Implementar autenticação
