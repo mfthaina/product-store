@@ -52,29 +52,15 @@ Before starting, make sure you have the following requirements:
 - MongoDB installed and running
 - NPM or Yarn installed
 
-## Installation
+## Setups
 
-1. Clone the repository
-
-```bash
-git clone https://github.com/your-user/product-store.git
-```
-
-2. Install frontend dependencies
+- Clone the repository
 
 ```bash
-cd frontend
-npm install
+git clone https://github.com/mfthaina/product-store.git
 ```
 
-3. Install backend dependencies
-
-```bash
-cd backend
-npm install
-```
-
-4. Configure environment variables
+- Configure environment variables
 
 ```bash
 # Create a .env file in the backend directory with:
@@ -82,13 +68,13 @@ MONGODB_URI=your_mongodb_uri
 PORT=5000
 ```
 
-5. Run this app locally
+- Run this app locally
 
 ```bash
 npm run build
 ```
 
-6. Start the app
+- Start the app
 
 ```bash
 npm run start
@@ -159,29 +145,15 @@ Antes de começar, verifique se você tem os seguintes requisitos:
 - MongoDB instalado e rodando
 - NPM ou Yarn instalado
 
-## Instalação
+## Configuração
 
-1. Clone o repositório
-
-```bash
-git clone https://github.com/seu-usuario/product-store.git
-```
-
-2. Instale as dependências do frontend
+- Clone o repositório
 
 ```bash
-cd frontend
-npm install
+git clone https://github.com/mfthaina/product-store.git
 ```
 
-3. Instale as dependências do backend
-
-```bash
-cd backend
-npm install
-```
-
-4. Configure as variáveis de ambiente
+- Configure as variáveis de ambiente
 
 ```bash
 # Crie um arquivo .env no diretório backend com:
@@ -189,13 +161,13 @@ MONGODB_URI=sua_uri_do_mongodb
 PORT=5000
 ```
 
-5. Execute este aplicativo localmente
+- Execute este aplicativo localmente
 
 ```bash
 npm run build
 ```
 
-6. Inicie o aplicativo
+- Inicie o aplicativo
 
 ```bash
 npm run start
