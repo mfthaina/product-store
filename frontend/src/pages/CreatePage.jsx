@@ -42,7 +42,7 @@ const CreatePage = () => {
   };
 
   return (
-    <Container maxW={"container.sm"}>
+    <Container maxW="container.xl" py={12}>
       <VStack spacing={8}>
         <Heading
           as={"h1"}
