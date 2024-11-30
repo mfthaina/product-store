@@ -18,6 +18,7 @@ const Navbar = () => {
   return (
     <Container maxW={"1140px"} px={4}>
       <Flex
+        paddingTop={2}
         h={16}
         alignItems={"center"}
         justifyContent={"space-between"}
@@ -37,7 +38,11 @@ const Navbar = () => {
           <Link to={"/"}>Product Store 🛒</Link>
         </Text>
 
-        <HStack spacing={2} alignItems={"center"}>
+        <HStack
+          marginTop={{ base: 5, sm: 0 }}
+          spacing={2}
+          alignItems={"center"}
+        >
           <Link to={"/create"}>
             <Button
               bg={useColorModeValue("#d9c0f2", "#413681")}
